@@ -16,7 +16,7 @@ print("Please wait...")
 files = glob.iglob(os.path.join("C:\Users\Usuario\Downloads\userdata", "*.melon"))
 for file in files:  #Modify the folder above to select where you store your mods without installing them
     if os.path.isfile(file):
-        shutil.copy2(file, "C:\Program Files\VRGAMES\BONEWORKS\UserData\CustomItems")
+        shutil.copy2(file, "C:\Program Files(x86)\Steam\steamapps\common\BONEWORKS\UserData\CustomItems")
     else:           #Modify the folder above to select your Boneworks Directory
         print("There are no Custom Items Mods in this folder")
 
@@ -24,7 +24,7 @@ for file in files:  #Modify the folder above to select where you store your mods
 files1 = glob.iglob(os.path.join("C:\Users\Usuario\Downloads\userdata", "*.body"))
 for file in files1:  #Modify the folder above to select where you store your mods without installing them
     if os.path.isfile(file):
-        shutil.copy2(file, "C:\Program Files\VRGAMES\BONEWORKS\UserData\PlayerModels")
+        shutil.copy2(file, "C:\Program Files(x86)\Steam\steamapps\common\BONEWORKS\UserData\PlayerModels")
     else:           #Modify the folder above to select your Boneworks Directory
         print("There are no Player Models Mods in this folder")
 
@@ -33,13 +33,13 @@ for file in files1:  #Modify the folder above to select where you store your mod
 files2 = glob.iglob(os.path.join("C:\Users\Usuario\Downloads\userdata", "*.bcm"))
 for file in files2:  #Modify the folder above to select where you store your mods without installing them
     if os.path.isfile(file):
-        shutil.copy2(file, "C:\Program Files\VRGAMES\BONEWORKS\UserData\CustomMaps")
+        shutil.copy2(file, "C:\Program Files(x86)\Steam\steamapps\common\BONEWORKS\UserData\CustomMaps")
     else:           #Modify the folder above to select your Boneworks Directory
         print("There are no .bcm Custom Maps Mods in this folder")
 #.cma maps
 files3 = glob.iglob(os.path.join("C:\Users\Usuario\Downloads\userdata", "*.cma"))
 for file in files3:  #Modify the folder above to select where you store your mods without installing them
     if os.path.isfile(file):
-        shutil.copy2(file, "C:\Program Files\VRGAMES\BONEWORKS\UserData\CustomMaps")
+        shutil.copy2(file, "C:\Program Files(x86)\Steam\steamapps\common\BONEWORKS\UserData\CustomMaps")
     else:           #Modify the folder above to select your Boneworks Directory
         print("There are no .cma Custom Maps Mods in this folder")
